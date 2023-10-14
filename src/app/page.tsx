@@ -16,9 +16,6 @@ export default function Home() {
 
   return (
     <main>
-      <div>
-        {liff.getOS()}
-      </div>
       <button onClick={login}>
         Login
       </button>
